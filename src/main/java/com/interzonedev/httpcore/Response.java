@@ -12,6 +12,8 @@ import com.google.common.collect.ImmutableMap;
 
 /**
  * Immutable value object representing an HTTP response.
+ * 
+ * @author mark@interzonedev.com
  */
 public class Response {
 

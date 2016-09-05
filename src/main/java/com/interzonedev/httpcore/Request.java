@@ -9,6 +9,8 @@ import com.google.common.collect.ImmutableMap;
 
 /**
  * Immutable value object representing an HTTP request.
+ * 
+ * @author mark@interzonedev.com
  */
 public class Request {
 

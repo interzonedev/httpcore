@@ -2,6 +2,8 @@ package com.interzonedev.httpcore;
 
 /**
  * Unchecked exception for HTTP actions.
+ * 
+ * @author mark@interzonedev.com
  */
 public class HttpException extends RuntimeException {
 
