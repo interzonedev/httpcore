@@ -17,7 +17,7 @@ public class RequestTest {
     private final String testUrl = "http://example.com?qk1=qv1";
     private final Method testMethod = Method.POST;
     private final Map<String, List<String>> testHeaders = new HashMap<>();
-    private final Map<String, List<Object>> testParameters = new HashMap<>();
+    private final Map<String, List<String>> testParameters = new HashMap<>();
     private final String testBody = "test body";
 
     {

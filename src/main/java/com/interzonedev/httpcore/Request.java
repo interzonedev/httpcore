@@ -17,7 +17,7 @@ public class Request {
     private final String url;
     private final Method method;
     private final Map<String, List<String>> headers;
-    private final Map<String, List<Object>> parameters;
+    private final Map<String, List<String>> parameters;
     private final String body;
 
     /**
@@ -65,7 +65,7 @@ public class Request {
         return headers;
     }
 
-    public Map<String, List<Object>> getParameters() {
+    public Map<String, List<String>> getParameters() {
         return parameters;
     }
 
@@ -106,7 +106,7 @@ public class Request {
         private String url;
         private Method method;
         private Map<String, List<String>> headers = ImmutableMap.of();
-        private Map<String, List<Object>> parameters = ImmutableMap.of();
+        private Map<String, List<String>> parameters = ImmutableMap.of();
         private String body;
 
         /**
@@ -157,7 +157,7 @@ public class Request {
             return this;
         }
 
-        public Builder setParameters(Map<String, List<Object>> parameters) {
+        public Builder setParameters(Map<String, List<String>> parameters) {
             if (null != parameters) {
                 this.parameters = ImmutableMap.copyOf(parameters);
             } else {
