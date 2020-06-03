@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>httpcore</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>HTTP Core</name>
@@ -45,7 +45,7 @@
         <connection>scm:git:git@github.com:interzonedev/httpcore.git</connection>
         <url>scm:git:git@github.com:interzonedev/httpcore.git</url>
         <developerConnection>scm:git:git@github.com:interzonedev/httpcore.git</developerConnection>
-        <tag>v1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
